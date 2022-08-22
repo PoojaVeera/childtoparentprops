@@ -1,0 +1,13 @@
+.ss {
+  display: inline-block;
+  color: rgb(236, 12, 12);
+  position: absolute;
+  left: 0;
+  top: 130px;
+  height: 500px;
+  width: 250px;
+  background-color: beige;
+}
+img {
+  height: 100px;
+}
