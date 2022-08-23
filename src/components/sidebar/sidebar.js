@@ -3,14 +3,14 @@ import "./sidebar.css";
 import { Link } from "react-router-dom";
 import pooh from "../../assets/pooh.jpg";
 
-const Sidebar = ({ childToParent }) => {
+const Sidebar = ({ ChildToParent }) => {
   const info = "data in child";
 
   return (
     <div className="ss">
       <img src={pooh} alt="pooh"></img>
       <p>this is sidebar </p>
-      <ul className="pp">
+      <ul className="pages">
         <li>
           <Link to="/">home</Link>
         </li>
@@ -22,7 +22,7 @@ const Sidebar = ({ childToParent }) => {
         </li>
       </ul>
       <p>this is Child</p>
-      <button onClick={() => childToParent(info)}>click me</button>
+      <button onClick={() => ChildToParent(info)}>click me</button>
     </div>
   );
 };

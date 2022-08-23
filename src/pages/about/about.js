@@ -4,7 +4,7 @@ import "./about.css";
 const Page2 = () => {
   return (
     <div>
-      <Layout data="about page" color="blue">
+      <Layout data="About page" color="green">
         <div className="about">
           <h1>this is about</h1>
           <p> this is page2</p>
