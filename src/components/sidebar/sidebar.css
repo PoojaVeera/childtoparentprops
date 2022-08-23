@@ -3,11 +3,11 @@
   color: rgb(236, 12, 12);
   position: absolute;
   left: 0;
-  top: 130px;
-  height: 500px;
-  width: 250px;
+  top: 19.5%;
+  height: 62%;
+  width: 20%;
   background-color: beige;
 }
 img {
-  height: 100px;
+  width: 100%;
 }

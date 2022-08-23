@@ -1,4 +1,6 @@
 .home {
-  padding: 300px;
   color: purple;
+  position: fixed;
+  top: 40%;
+  left: 30%;
 }

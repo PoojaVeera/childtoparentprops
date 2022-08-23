@@ -7,22 +7,21 @@ const Page1 = () => {
   const [name, output] = useState("");
   const handleChange = (events) => {
     output(events.target.value);
-    console.log("value is", events.target.value);
   };
 
   // this is for child to parent assignment
   const ChildToParent = (view) => {
     console.log(view);
+
     // const [propsdisplay, setpropview] = useState(view);
-    const propsdisplay = view;
-    console.log("this is from inside propsdisplay" + propsdisplay);
   };
 
   return (
     <div>
       <Layout data="homepage" color="red">
         <div className="home">
-          <label>please enter a name </label>
+          <h3>This is home page</h3>
+          <label>Please enter a name : </label>
           <input
             type="text"
             id="name"
@@ -32,7 +31,6 @@ const Page1 = () => {
           ></input>
           <h3>Name:{name}</h3>
           {/* <p>display:{propview}</p> */}
-          <p>this is home page</p>
         </div>
       </Layout>
       <Sidebar ChildToParent={ChildToParent} />
