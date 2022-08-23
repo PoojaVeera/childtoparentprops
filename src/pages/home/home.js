@@ -11,6 +11,7 @@ const Page1 = () => {
       <Layout data="homepage" color="red">
         <div className="home">
           <p>this is home page</p>
+          <Sidebar childToParent={childToparent}/>
         </div>
       </Layout>
       <Sidebar childToParent={childToParent} />
