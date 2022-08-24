@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../components/layout/layout";
 import "./about.css";
-const Page2 = () => {
+const About = () => {
   return (
     <div>
       <Layout data="About page" color="green">
@@ -13,4 +13,4 @@ const Page2 = () => {
     </div>
   );
 };
-export default Page2;
+export default About;

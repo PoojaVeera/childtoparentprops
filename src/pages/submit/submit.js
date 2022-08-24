@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../components/layout/layout";
 import "./submit.css";
-const Page3 = () => {
+const Submit = () => {
   return (
     <Layout data="submit page" color="green">
       <div className="submit">
@@ -10,4 +10,4 @@ const Page3 = () => {
     </Layout>
   );
 };
-export default Page3;
+export default Submit;
