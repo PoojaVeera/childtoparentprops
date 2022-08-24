@@ -5,7 +5,6 @@ import "./home.css";
 const Home = () => {
   // this is for useState assignment
   const [name, output] = useState("");
-  console.log(name);
   const handleChange = (events) => {
     output(events.target.value);
   };
